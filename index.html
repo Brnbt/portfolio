@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="script.js"></script>
+</head>
+<body>
+
+    <nav>
+        <ul class="navbar">
+            <img class="logo" src="img/logo.png" alt="logo">
+            <div id="navname">
+                <li><a href="index.php"><i id="boxicons" class='bx bx-home-circle bx-tada' ></i><span class="navname">Accueil</span></a></li>
+                <li><a href="index.php"><i  id="boxicons" class='bx bxs-contact' ></i><span class="navname">Contact</span></a></li>
+                <li><a href="index.php"><i  id="boxicons" class='bx bxl-linkedin-square'></i><span class="navname">LinkedIn</span></a></li>
+            </div>
+             </ul>
+    </nav>
+
+    <div style="height: 300px;"></div>
+
+    <div class="profile">
+    <div>Br</div><div id="nom"></div><div>BETABELET</div>
+</div>
+  <div class="biography">
+    <p>Je suis un développeur passionné par la création de sites web et d'applications. 
+    J'ai acquis une vaste expérience dans le domaine de la programmation et je suis constamment en quête d'apprendre de nouvelles technologies. 
+    En dehors du développement, j'aime voyager, lire et explorer de nouvelles cultures.</p>
+  </div>
+
+  <div style="height: 100px;"></div>
+
+  <p id="titre">Mes projets</p>
+
+<div id="projects-container">
+<div class="projects-container">
+    <div class="project">
+
+            <img class="logos" src="img/bolistalogo.png" alt="logo">
+
+        <p>Découvrez tout ce que vous devez savoir sur TNK Inside F.C !
+         Suivez en direct les résultats de chaque match, explorez notre boutique officielle, familiarisez-vous avec les joueurs de l'effectif 
+         et engagez-vous avec notre communauté de fans en mettant des likes sur vos matchs préférés.</p>
+
+         <div class="langage">
+            <i class='bx bxl-php' ></i>
+            <i class='bx bxs-file-js' ></i>
+            <i class='bx bxl-html5' ></i>
+            <i class='bx bxl-postgresql'></i>
+         </div>
+
+    </div>
+    <div class="project">
+        <h2>Projet 2</h2>
+        <p>Voici la description du deuxième projet. Présentez les fonctionnalités et les technologies utilisées.</p>
+    </div>
+</div>
+
+<div class="projects-container">
+    <div class="project">
+        <h2>Projet 3</h2>
+        <p>Le troisième projet est expliqué ici. Partagez des informations sur l'impact du projet et sa réalisation.</p>
+    </div>
+    <div class="project">
+        <h2>Projet 4</h2>
+        <p>La description du quatrième projet peut être placée ici. Décrivez son importance et ses résultats.</p>
+    </div>
+</div>
+</div>
+
+
+  <script>
+    const textElement = document.getElementById("nom");
+    const originalText = "iaan";
+    const replacementText = "n";
+    let currentIndex = 0;
+    let isErasing = false;
+    let isReversing = false;
+
+    function animateText() {
+        if (!isErasing && !isReversing) {
+            const newText = originalText.substring(0, currentIndex);
+            textElement.innerHTML = newText;
+            currentIndex++;
+            if (newText === originalText) {
+                isErasing = true;
+            }
+        } else if (isErasing) {
+            setTimeout(function() {
+                const newText = originalText.substring(0, currentIndex);
+                textElement.innerHTML = newText;
+                currentIndex--;
+                if (newText === "") {
+                    isErasing = false;
+                    isReversing = true;
+                    currentIndex = 0;
+                }
+            }, 100); // Réduisez le délai à 100 ms
+        } else if (isReversing) {
+            const newText = replacementText.substring(0, currentIndex);
+            textElement.innerHTML = newText;
+            currentIndex++;
+            if (newText === replacementText) {
+                isReversing = false;
+                currentIndex = 0;
+            }
+        }
+        setTimeout(animateText, 900); // Réduisez le délai à 100 ms
+    }
+
+    animateText();
+</script>
+
+</body>
+</html>
