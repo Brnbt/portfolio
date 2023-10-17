@@ -125,7 +125,7 @@ body{
 #titre{
     text-align: center;
     color: white;
-    font-size: 24px;
+    font-size: 34px;
 }
 
 .langage{
@@ -133,3 +133,35 @@ body{
     justify-content: space-evenly;
     font-size: 25px;
 }
+
+.diplome {
+    background-color: #f8f8f8;
+    border: 1px solid #d0d0d0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeline li {
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .timeline li::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #3498db;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: -10px;
+    top: 0;
+  }
