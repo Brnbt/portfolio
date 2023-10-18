@@ -135,12 +135,15 @@ body{
 }
 
 .diplome {
-    background-color: #f8f8f8;
-    border: 1px solid #d0d0d0;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-  }
+  background: url('img/laurier.png')center; /* Set the background image */
+  background-size: cover;
+  background-color: #ecdcbc; /* Yellow background */
+  border: 20px solid #fff; /* White border */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: #000; /* Text color (black) */
+}
 
   .timeline {
     display: flex;
