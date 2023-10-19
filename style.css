@@ -100,6 +100,7 @@ body{
 }
 .project {
     flex: 1;
+    box-shadow: 18px 5px 5px red;
     margin-left: 60px;
     margin-right: 60px;
     color: white;
@@ -135,14 +136,14 @@ body{
 }
 
 .diplome {
-  background: url('img/laurier.png')center; /* Set the background image */
+  background: url('img/laurier.png')center; 
   background-size: cover;
-  background-color: #ecdcbc; /* Yellow background */
-  border: 20px solid #fff; /* White border */
+  background-color: #ecdcbc; 
+  border: 20px solid #fff; 
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
-  color: #000; /* Text color (black) */
+  color: #000;
 }
 
   .timeline {
