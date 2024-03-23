@@ -188,3 +188,168 @@ body{
     color: #313957;
 
   }
+
+  .CV a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  #758ac2;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    transition: all ease 0.3s;
+
+  }
+  
+  .CV a:hover {
+    background-color: #040607;
+  }
+  
+
+  .parcours {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+  }
+  
+  .etude {
+    background-color: rgb(230, 230, 230);
+    color:   #242a41;
+    padding: 20px;
+    border: 1px solid #313957;
+    border-radius: 5px;
+    width: 40%;
+  }
+  
+  .etude h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .etude p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+
+  .button-context {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #313957;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    transition: all ease 0.3s;
+    margin-top: 10px; 
+  }
+  
+  .button-context:hover {
+    background-color: #040607;
+  }
+  
+
+  .experience {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+  }
+  
+  .job {
+    background-color: #242a41;
+    color: white;
+    padding: 20px;
+    border: 1px solid #313957;
+    border-radius: 5px;
+    width: 60%;
+  }
+  
+  .job h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .job p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+
+  .progress-bar-container {
+    margin-top: 10px;
+  }
+  
+  progress {
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Style de la barre de progression */
+  progress[value] {
+    /* Pour Firefox */
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  
+  progress[value]::-webkit-progress-bar {
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+  
+  progress[value]::-webkit-progress-value {
+    background-color: #758ac2;
+    border-radius: 10px;
+  }
+
+  .veille {
+    background-color: #242a41;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 60%; /* Ajustez la largeur selon vos besoins */
+  }
+  
+  .veille h2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .veille p {
+    font-size:60%;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .evolutions{
+    width: 80%;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Créez 4 colonnes avec une largeur égale */
+    grid-gap: 2%; /* Espace entre les blocs */
+  }
+  
+  .block {
+    
+    background-color: #242a41;
+    color: white;
+    padding: 5%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .block h2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .block p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  
+  
