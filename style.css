@@ -361,6 +361,17 @@ body{
 
   }
   
+  @keyframes shine {
+    0% {
+        color: #ffffff; /* Couleur de départ */
+    }
+    50% {
+        color: #ffff00; /* Couleur à mi-chemin */
+    }
+    100% {
+        color: #ffffff; /* Couleur finale */
+    }
+}
   
   
   
