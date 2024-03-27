@@ -306,9 +306,10 @@
       </button> 
     </div>
     
-    <div id="summaryContainer" style="display: none;">
-      <div id="summaryContent"></div>
+    <div id="veilleContent" class="veille-content">
+      <div id="veilleContentInner" class="veille-content-inner"></div>
     </div>
+    
     
   
     </div>
@@ -359,31 +360,6 @@
     animateText();
   </script>
 
-  <script>
-// Récupérer tous les blocs
-const blocks = document.querySelectorAll('.block');
-
-// Récupérer le conteneur du résumé
-const summaryContainer = document.getElementById('summaryContainer');
-const summaryContent = document.getElementById('summaryContent');
-
-// Ajouter un gestionnaire d'événements de clic à chaque bloc
-blocks.forEach(block => {
-  block.addEventListener('click', () => {
-    // Récupérer le deuxième paragraphe (index 1) du bloc cliqué
-    const secondParagraph = block.querySelectorAll('p')[1];
-    
-    // Afficher ou masquer le résumé en fonction de son état actuel
-    if (summaryContainer.style.display === 'none' || summaryContent.innerText !== secondParagraph.innerText) {
-      // Afficher le résumé
-      summaryContent.innerText = secondParagraph.innerText;
-      summaryContainer.style.display = 'block';
-    } else {
-      // Masquer le résumé
-      summaryContainer.style.display = 'none';
-    }
-  });
-});
 
   </script>
 
@@ -413,6 +389,57 @@ blocks.forEach(block => {
     });
   });
 </script>
+
+<script>
+  // Sélectionne tous les blocs de veille technologique
+  const veilleBlocks = document.querySelectorAll('.block');
+
+  // Sélectionne le div pour afficher le contenu de la veille technologique
+  const veilleContent = document.getElementById('veilleContentInner');
+
+  // Parcours chaque bloc de veille technologique
+  veilleBlocks.forEach(function(block) {
+    // Ajoute un écouteur d'événements de clic au bloc de veille
+    block.addEventListener('click', function() {
+      // Récupère le deuxième paragraphe (index 1) dans le bloc actuel
+      const secondParagraph = block.querySelectorAll('p')[1];
+      // Vérifie si le deuxième paragraphe existe
+      if (secondParagraph) {
+        // Affiche le contenu du deuxième paragraphe dans le div de la veille
+        veilleContent.innerHTML = secondParagraph.innerHTML;
+        // Affiche le div de la veille
+        veilleContent.parentElement.style.display = 'block';
+      }
+
+      const articleButtonLink = block.querySelector('.button-context a');
+      // Vérifie si le lien du bouton de l'article existe
+      if (articleButtonLink) {
+        // Crée un élément de lien pour afficher le lien de l'article
+        const linkElement = document.createElement('a');
+        linkElement.textContent = 'Lien de l\'article';
+        linkElement.href = articleButtonLink.href;
+        linkElement.target = '_blank';
+        // Ajoute le lien de l'article au div de la veille
+        veilleContent.appendChild(linkElement);
+      }
+
+    });
+  });
+
+
+  // Cache le div de la veille au chargement de la page
+  window.addEventListener('click', function(event) {
+    // Vérifie si le clic n'est pas à l'intérieur d'un bloc de veille
+    if (!event.target.closest('.block')) {
+      // Cache le div de la veille
+      veilleContent.parentElement.style.display = 'none';
+    }
+  });
+</script>
+
+
+
+
 
 
 </body>
