@@ -339,7 +339,7 @@ body{
   
   .block {
     
-    background-color: white;
+    background-color: #f8f0df;
     color: #242a41;
     padding: 5%;
     border-radius: 5px;
@@ -407,6 +407,6 @@ body{
     font-style: normal;
     padding: 50px;
     font-size: 120%;
-    display: inline-block;
-  }
+    display: block;
+    margin-bottom: 101px;  }
 
