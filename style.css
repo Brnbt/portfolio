@@ -99,6 +99,8 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+
 .project {
     flex: 1;
     box-shadow: 18px 5px 5px red;
@@ -410,4 +412,25 @@ body{
     font-size: 120%;
     display: block;
     margin-bottom: 101px;  }
+
+#buttoncertif{
+  font-size: 20px;
+  margin-top: 10px;
+  text-decoration: none;
+ background-color: #444f77;
+ border-radius: 10px;
+ border : 0px ;
+ padding: 10px;
+ margin-left: 2px;
+
+}
+
+.certification{
+  background-color: #242a41;
+  padding-bottom: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: white;
+
+}
 
