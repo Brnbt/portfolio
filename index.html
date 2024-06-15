@@ -1,625 +1,136 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="Brnbt">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <title>Portfolio | Briaan BETABELET</title>
-  <link rel="apple-touch-icon" href="img/logo.png">
-  <link rel="icon" type="image/png" href="img/logo.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Brnbt">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Portfolio | Briaan BETABELET</title>
+    <link rel="apple-touch-icon" href="img/logo.png">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
-
 <body>
+    <header>
+      <nav>
+        <ul class="navbar">
+          <img class="logo" src="img/logo.png" alt="logo">
+          <div id="navname">
+            <li><a href="#projects"><span class="navname">Projets</span></a></li>
+            <li><a href="#parcours"><span class="navname">Parcours</span></a></li>
+            <li><a href="#certifications"><span class="navname">Certifications</span></a></li>
+          </div>
+        </ul>
+      </nav>
+    </header>
 
-  <nav>
-    <ul class="navbar">
-      <img class="logo" src="img/logo.png" alt="logo">
-      <div id="navname">
-        <li><a href="#accueil"><span class="navname">Accueil</span></a></li>
-        <li><a href="#Parcours"><span class="navname">Parcours</span></a></li>
-        <li><a href="#PPE"><span class="navname">PPE</span></a></li>
-        <li><a href="#certification"><span class="navname">Certification</span></a></li>
-        <li><a href="#Veilles"><span class="navname">Veilles</span></a></li>
-        <li style="animation: shine 1.5s linear infinite;" ><a href="#E4"><span class="navname">Epreuve E4</span></a></li>
-      </div>
-    </ul>
-  </nav>
-  
+    <div style="height: 70px;"></div>
 
-  <div style="height: 300px;" id="accueil"></div>
+    <section id="biography">
+      <div class="biography">
 
-  <div class="profile">
-    <div>Br</div>
-    <div id="nom"></div>
-    <div>BETABELET</div>
-  </div>
-
-
-  <div class="biography">
-    <p>
-      Je suis actuellement étudiant au lycée Jules Ferry à Conflans-Sainte-Honorine en deuxième année de BTS SIO en option SLAM qui est une option spécialisée pour le développement. 
-      Je vous propose sur ce portfolio de retrouver ci-dessous les différentes études et projets professionnels que j'ai entrepris au sein de ma carrière.
-    </p>
-    <p>
-      Vous retrouverez ci-dessous mon CV, mon parcours ainsi que mes différents projets. 
-   </p>
-
-   <div class="CV">
-    <a href="doc/CV.pdf" target="_blank" >Voir mon CV</a>
-  </div>
-
-  </div>
-
-
-
-  <div style="height: 100px;" id="Parcours"></div>
-
-  <p id="titre"><a ></a>Parcours</p>
-  
-  <div class="parcours">
-    <div class="etude">
-      <h2>BTS SIO Option SLAM (Bac +2)</h2>
-      <p><i class='bx bxs-graduation' ></i>Lycée Jules Ferry</p>
-      <p><strong>2022 -  En cours</strong></p>
-      <p>BTS Services informatiques aux organisations Option Solutions Logicielles et Applications Métiers</p>
-      <a target="_blank" href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers" class="button-context">Qu'est ce que le BTS SIO ?</a>
-
-    </div>
-  
-    <div class="etude">
-      <h2>BAC STI2D Option SIN</h2>
-      <p><i class='bx bxs-graduation' ></i> Lycée Polyvalent Jean Jaurès</p>
-      <p><strong>2018 - 2021</strong></p>
-      <p>BAC Sciences et Technologies de l'industrie et du Développement Durable</p>
-      <a target="_blank" href="https://www.onisep.fr/ressources/univers-formation/formations/lycees/bac-techno-sti2d-sciences-et-technologies-de-l-industrie-et-du-developpement-durable-enseignement-specifique-systemes-d-information-et-numerique#:~:text=L'enseignement%20sp%C3%A9cifique%20%22syst%C3%A8mes%20d,et%20de%20leurs%20performances%20environnementales." class="button-context">Qu'est ce que le BAC STI2D ?</a>
-
-    </div>
-  </div>
-
-  <div style="height: 100px;"></div>
-
-
-  <section style="  background: linear-gradient(#161a29 , #040607);  ">
-
-    <div style="height: 100px;"></div>
-
-    <p id="titre">Expérience professionnelle</p>
-  
-    <div class="experience">
-      <div class="job">
-        <h2>STAGE - INTEGRATEUR WEB</h2>
-        <p>Décembre 2023 - Février 2024</p>
-        <p>Stage dans l'entreprise FUNELIOR'</p>
-        <p> · Integration de produits disponible a l’achat sur le site Web et Amazon.</p>
-        <p> · Optimisation des sites web pour une performance maximale en veillant à la rapidité de chargement et à l'efficacité du code.</p>
-        <p><em>17 Rue des arts, 31000 TOULOUSE</em></p>
-        <div class="progress-bar-container">
-
-          <button class="buttonproject" role="button">
-            <a target="_blank" href="https://trello.com/b/EFcX68GN/stage-integration-web-funelior-du-11-decembre-2023-au-2-fevrier-2024">Déroulement du stage</a>
-          </button> 
-          
-          
-        </div>
-      </div>
-    </div>
-  
-    <div class="experience">
-      <div class="job">
-        <h2>STAGE - TECHNICIEN SERVICE INFORMATIQUE</h2>
-        <p>Juin 2023 - Juillet 2023</p>
-        <p>Stage dans la mairie de Pierrelaye</p>
-        <p> · Installation des matériels informatiques dans l'entreprise en veillant à leurbon fonctionnement avant livraison. </p>
-        <p>  · Assistance des utilisateurs en cas de problème ou d'un manque de connaissances pour réaliser une opération.</p>
-        <p><em>42 bis Rue Victor Hugo, 95480 PIERRELAYE</em></p>
-        <div class="progress-bar-container">
-          <button class="buttonproject" role="button">
-            <a target="_blank" href="https://trello.com/b/7Y4o0Cjd/stage-service-informatique-mairie-de-pierrelaye-du-30-mai-2023-au-30-juin-2023">Déroulement du stage</a>
-          </button>      
-        </div>
-      </div>
-    </div>
-    <div style="height: 100px;" id="PPE"></div>
-
-  </section>
-
-  <p id="titre"><a ></a>Projets Personnalisés Encadrés (PPE)</p>
-
-  <div id="projects-container">
-    <div class="projects-container">
-
-      <div class="project">
-
-        <img style=" width: 100%; margin-top: 0;" src="img/projecttohldi1.png">
-        <img class="logos" src="img/tholdilogo.png" alt="logo">
+        <p style="font-family: 'VT323', monospace; font-size: 50px;"><span>Br</span><span id="nom"></span><span > BETABELET</span></p>
 
         <p>
-          Application metiers conçue pour simplifier la réservation de conteneurs pour les entreprises.
-          Suivez facilement le processus de réservation, explorez une gamme de conteneurs adaptés à vos besoins, et bénéficiez d'une gestion des factures.
-          gérez vos réservations de conteneurs efficacement et concentrez-vous sur la croissance de votre entreprise.
+          Je suis actuellement étudiant au lycée Jules Ferry à Conflans-Sainte-Honorine en deuxième année de BTS SIO en option SLAM qui est une option spécialisée pour le développement. 
+          Je vous propose sur ce portfolio de retrouver ci-dessous les différentes études et projets professionnels que j'ai entrepris au sein de ma carrière.
         </p>
+        <p>
+          Vous retrouverez ci-dessous mon CV, mon parcours ainsi que mes différents projets. 
+       </p>
 
-        <button class="buttonproject" role="button">
-          <a target="_blank" href="https://trello.com/b/x09GbmCT/ppe2">Déroulement du projets</a>
-        </button>
+       <div class="CV">
+        <a href="doc/CV.pdf" target="_blank">Voir mon CV</a>
+      </div>
+      </div>
+    </section>
 
-        <!-- <button class="buttonproject" role="button">
-          <a target="_blank" href="http://192.168.6.2/">Lien (via le serveur Tholdi)</a>
-        </button>
-
-        <p>Utilisateurs : jber </p>
-        <p>Mot de passe : @Xazerty1</p>
-        <div style="height: 50px;"></div> -->
-
-
-
-
-
-        <div class="langage">
-          <i class='bx bxl-php'></i>
-          <i class='bx bxs-file-js'></i>
-          <i class='bx bxl-html5'></i>
-          <i class='bx bxl-postgresql'></i>
+    <section id="projects">
+        <h2>Projets</h2>
+        <div class="project-container">
+            <article class="project">
+                <img src="img/projtet1.png" alt="Projet TNK Inside">
+                <div class="project-info">
+                    <h3>TNK INSIDE</h3>
+                    <p>Découvrez tout ce que vous devez savoir sur TNK Inside ! Suivez en direct les résultats de chaque match, explorez notre boutique officielle, familiarisez-vous avec les joueurs de l'effectif.</p>
+                    <button><a href="http://www.tnkinside.fr/">Site disponible</a></button>
+                    <div class="technologies">
+                      <i class='bx bxl-php'></i>
+                      <i class='bx bxs-file-js'></i>
+                      <i class='bx bxl-html5'></i>
+                      <i class='bx bxl-postgresql'></i>
+                    </div>
+                </div>
+            </article>
+            <article class="project">
+                <img src="img/blank.png" alt="">
+                <div class="project-info">
+                    <h3>PROJET B</h3>
+                    <p>Projet en développement</p>
+                </div>
+            </article>
         </div>
+    </section>
 
-      </div>
-
-      <div class="project">
-
-        <img style=" width: 100%; margin-top: 0;" src="img/projecttohldi2.png">
-        <img class="logos" src="img/tholdilogo.png" alt="logo">
-
-        <p>Application conçue en C# pour simplifier la signalisation de conteneurs pour les entreprises sur le système d'exploitation Windows.
-           Avec Tholdi, gérez vos réservations de conteneurs efficacement et concentrez-vous sur la croissance de votre entreprise.</p>
-
-           <button class="buttonproject" role="button">
-            <a target="_blank" href="https://trello.com/b/LOBEnX9p/ppe3">Déroulement du projets</a>
-          </button>
-
-          <!-- <button class="buttonproject" role="button">
-            <a target="_blank" href="file:///C:/Users/bbet/Desktop/VRAI%20VRAI%20VRAI%20TOLDI/tholdi-maintenance/Ihm/obj/Debug/ihm.exe">Lancement du Progiciel</a>
-          </button>
-
-          <p>Utilisateurs : bri.bet </p>
-          <p>Mot de passe : @Xazerty1</p>
-          <div style="height: 50px;"></div> -->
-
-        <div class="langage">
-          <i class='bx bxl-postgresql'></i>
-          <i class='bx bxl-visual-studio'></i>
-          <i class='bx bxl-windows'></i>
+    <section id="parcours">
+      <h2>Mon Parcours</h2>
+      <div class="parcours-container">
+        <div class="parcours-item">
+          <h3>BTS SIO Option SLAM (Bac +2)</h3>
+          <p>Lycée Jules Ferry</p>
+          <p><strong>2022 - En cours</strong></p>
+          <p>BTS Services informatiques aux organisations Option Solutions Logicielles et Applications Métiers</p>
+          <button id="buttonparours"><a target="_blank" href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers">Qu'est ce que le BTS SIO ?</a></button>
         </div>
-
-      </div>
-    </div>
-
-  <div style="height: 10px;"></div>
-
-  <p id="titre">Projets personnels</p>
-
-  <div id="projects-container">
-    <div class="projects-container">
-
-      <div class="project">
-
-        <img style=" width: 100%; margin-top: 0;" src="img/projtet1.png">
-        <img class="logos" src="img/tnkinsidelogo.png" alt="logo">
-
-
-        <p>Découvrez tout ce que vous devez savoir sur TNK Inside !
-          Suivez en direct les résultats de chaque match, explorez notre boutique officielle, familiarisez-vous avec les
-          joueurs de l'effectif.</p>
-
-        <button class="buttonproject" role="button">
-          <a target="_blank" href="https://www.tnkinside.fr/">Site disponible</a>
-        </button>
-
-
-        <div class="langage">
-          <i class='bx bxl-php'></i>
-          <i class='bx bxs-file-js'></i>
-          <i class='bx bxl-html5'></i>
-          <i class='bx bxl-postgresql'></i>
+        
+        <div class="parcours-item">
+          <h3>BAC STI2D Option SIN</h3>
+          <p>Lycée Polyvalent Jean Jaurès</p>
+          <p><strong>2018 - 2021</strong></p>
+          <p>BAC Sciences et Technologies de l'industrie et du Développement Durable</p>
+          <button id="buttonparours"><a target="_blank" href="https://www.onisep.fr/ressources/univers-formation/formations/lycees/bac-techno-sti2d-sciences-et-technologies-de-l-industrie-et-du-developpement-durable-enseignement-specifique-systemes-d-information-et-numerique#:~:text=L'enseignement%20sp%C3%A9cifique%20%22syst%C3%A8mes%20d,et%20de%20leurs%20performances%20environnementales.">Qu'est ce que le BAC STI2D ?</a></button>
         </div>
-
       </div>
+    </section>
 
-      <div class="project">
-
-        <img style=" width: 100%; margin-top: 0;" src="img/blank.png">
-        <img class="logos" style="width: 250px;" src="img/foflogo.png" alt="">
-
-        <p></p>
-
-        <button class="buttonproject" role="button">
-          <a href="">Projet en développement</a>
-        </button>
-
-
-        <div class="langage">
-          <i class=''><img style="filter: invert(100%);" width="30" height="30" src="https://img.icons8.com/ios-filled/100/000000/unreal-engine.png" alt="unreal-engine"/></i>
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certifications-container">
+          <div class="certification-item">
+            <img src="img/pix.png" alt="Certification 1">
+            <h3>PIX</h3>
+            <p>Service public en ligne pour évaluer ses compétences numériques.</p>
+            <button><a target="_blank" href="doc/PIX.pdf">Voir la certification</a></button>
+          </div>
+          
+          <div class="certification-item">
+            <img src="img/SecNumAcademie.png" alt="Certification 2">
+            <h3>SecNumAcadémie</h3>
+            <p>Service public en ligne pour évaluer ses compétences en cybersécurité.</p>
+            <button><a target="_blank" href="doc/SecNumacademie.pdf">Voir la certification</a></button>
+          </div>
+          
+          <div class="certification-item">
+            <img src="img/CNIL.png" alt="Certification 3">
+            <h3>CNIL : MOOC sur le RGPD</h3>
+            <p>Service public en ligne pour évaluer ses compétences sur la RGPD.</p>
+            <button><a target="_blank" href="doc/CNIL.pdf">Voir la certification</a></button>
+          </div>
+          
+          <div class="certification-item">
+            <img src="img/Voltaire.png" alt="Certification 4">
+            <h3>PROJET VOLTAIRE</h3>
+            <p>Remise à niveau en expression et en orthographe.</p>
+            <button><a target="_blank" href="doc/VOLTAIRE.pdf">Voir la certification</a></button>
+          </div>
         </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <div style="height: 100px;" id="certification"></div>
-
-  <p id="titre"><a></a>Mes certifications</p>
-
-  <div style="display: flex; ">
-
-  <div class="experience" style="align-items: center; background-color: #aeb3c7; border-radius: 10px; margin-right: 40px; padding: 10px;">
-    <div><img src="img/pix.png" alt="" style="height: 120px;"></div>
-    <div class="job">
-      <h2>PIX</h2>
-      <p>Service public en ligne pour évaluer ses compétences numériques.</p>
-      <div class="progress-bar-container">
-        <button class="buttonproject" role="button">
-          <a target="_blank" href="doc/PIX.pdf">Voir la certification</a>
-        </button>      
-      </div>
-    </div>
-  </div>
-
-  <div class="experience" style="align-items: center; background-color: #aeb3c7; border-radius: 10px;">
-    <div><img src="img/SecNumAcademie.png" alt="" style="height: 120px;"></div>
-    <div class="job">
-      <h2>SecNumAcadémie</h2>
-      <p>Service public en ligne pour évaluer ses compétences numériques.</p>
-      <div class="progress-bar-container">
-        <button class="buttonproject" role="button">
-          <a target="_blank" href="doc/SecNumacademie.pdf">Voir la certification</a>
-        </button>      
-      </div>
-    </div>
-  </div>
-
-</div>
-
-
-<div style="display: flex; ">
-
-  <div class="experience" style="align-items: center; background-color: #aeb3c7; border-radius: 10px; margin-right: 40px; padding: 10px;">
-    <div><img src="img/CNIL.png" alt="" style="height: 120px;"></div>
-    <div class="job">
-      <h2>CNIL : MOOC sur le RGPD</h2>
-      <p>Service public en ligne pour évaluer ses compétences numériques.</p>
-      <div class="progress-bar-container">
-        <button class="buttonproject" role="button">
-          <a target="_blank" href="doc/CNIL.pdf">Voir la certification</a>
-        </button>      
-      </div>
-    </div>
-  </div>
-
-  <div class="experience" style="align-items: center; background-color: #aeb3c7; border-radius: 10px; margin-right: 40px; padding: 10px;">
-    <div><img src="img/Voltaire.png" alt="" style="height: 120px;"></div>
-    <div class="job">
-      <h2>PROJET VOLTAIRE</h2>
-      <p>Remise à niveau en expression et en orthographe.</p>
-      <div class="progress-bar-container">
-        <button class="buttonproject" role="button">
-          <a target="_blank" href="doc/VOLTAIRE.pdf">Voir la certification</a>
-        </button>      
-      </div>
-    </div>
-  </div>
-
-</div>
-
-  <div style="height: 100px;"  id="Veilles"></div>
-
-  <div style="background-color: white;">
-
-
-
-  </div>
-
-  <p id="titre"><a></a>Veille technologique</p>
-
-  <div class="veille">
-    <h2>Qu'est-ce que la veille technologique ?</h2>
-    <p>La veille technologique consiste à surveiller les évolutions techniques dans un secteur d’activité donné. La veille technologique a pour but d’évaluer l’impact sur l’environnement et l’organisation.</p>
-  
-    <h2>Les principaux outils de ma veille</h2>
-    <p>Grâce à des newsletters de Google actualités et quelques sites favoris qui me tiennent au courant des dernières actualités, comme clubic pour la simplicité, je ferais des recherches directement sur la barre de recherche : "Cybersécurité des applications" .</p>
-  
-    <h2>Sujet de ma veille</h2>
-    <p>​La cybersécurité des applications vise à protéger les logiciels et les systèmes informatiques contre les menaces et les attaques en ligne, garantissant ainsi la confidentialité, l'intégrité et la disponibilité des données</p>
-    <p>Dans le cadre de ma veille technologique, j'ai choisi d'explorer le domaine de la cybersécurité des applications. Les applications informatiques sont présentes dans le fonctionnement des entreprises et des organisations et mon objectif est de comprendre les mécanismes des cyberattaques sur les applications, d'analyser les réponses des entreprises faces aux attaques ainsi que les différentes techniques utilisées par les cybercriminels pour cibler les applications.
-    </p>
-  </div>
-
-  <div class="veille">
-    <p> Défintion : <em>La cybersécurité est une méthode de protection des systèmes, des réseaux et des programmes contre les attaques numériques</em> </p>
-  </div>
-  
-<div style="height: 100px;"></div>
-
-  <div class="evolutions">
-    <div class="grid-container">
-
-    <div class="block">
-      <h2>Désinstallation d'urgence des applications qui en veulent à vos comptes Signal et Telegram</h2>
-      <p>SEPTEMBRE 2023</p>
-      <P style="display: none;">Des chercheurs en cybersécurité ont découvert des applications malveillantes sur le Google Play Store et le Samsung Galaxy Store qui ciblent les utilisateurs de Signal et de Telegram. Ces applications distribuent un logiciel espion appelé BadBazaar, conçu pour collecter des données sensibles telles que les SMS et les journaux d'appels. Les chercheurs ont identifié cette campagne de cyberattaques et l'ont attribuée à un acteur lié à la Chine, GREF, qui a déjà été impliqué dans des activités de cybercriminalité. Les applications malveillantes ont été diffusées dans plusieurs pays, dont l'Allemagne, les États-Unis et l'Australie. Les utilisateurs sont conseillés de supprimer immédiatement ces applications de leurs appareils pour protéger leurs données personnelles.</P>
-      <button  style="display: none;" class="button-context" role="button">
-        <a target="_blank" href="https://www.clubic.com/antivirus-securite-informatique/actualite-483085-desinstallez-d-urgence-ces-applications-qui-en-veulent-a-vos-comptes-signal-et-telegram.html">Lien de l'article</a>
-      </button> 
-
-      <p style="padding: 10px; cursor: pointer; background-color:#f3d084;
-      border-color:#ffe3a5; border-radius: 10px; font-size: 120%;">Résumé de l'article</p>
-
-    </div>
-
-    <div class="block">
-      <h2>Le Canada interdit WeChat et Kaspersky sur les smartphones du gouvernement</h2>
-      <p>OCTOBRE 2023</p>
-      <P style="display: none;">Le Canada a annoncé l'interdiction de l'utilisation des applications chinoise WeChat et russe Kaspersky sur les smartphones fournis par le gouvernement. Cette décision vise à garantir la sécurité des réseaux et des données gouvernementaux, en raison des risques potentiels liés à la collecte de données par ces applications. Le gouvernement canadien a également précisé qu'il n'y avait aucune preuve de compromission des données gouvernementales jusqu'à présent, malgré les risques clairs associés à ces applications. Cette mesure intervient dans un contexte de préoccupations croissantes concernant l'ingérence étrangère, notamment de la part de la Chine, de la Russie et de l'Inde. Aux États-Unis, une tentative similaire de bannir WeChat avait été annulée par le président Joe Biden en 2021.</P>
-      <button  style="display: none;" class="button-context" role="button">
-        <a target="_blank" href="https://www.lefigaro.fr/flash-eco/le-canada-interdit-wechat-et-kaspersky-sur-les-smartphones-du-gouvernement-20231030">Lien de l'article</a>
-      </button> 
-
-      <p style="padding: 10px; cursor: pointer; background-color:#f3d084;
-      border-color:#ffe3a5; border-radius: 10px; font-size: 120%;">Résumé de l'article</p>
-
-    </div>
-
-    <div class="block">
-      <h2>L'application de messagerie Olvid est "l'une des plus sécurisées au monde"</h2>
-      <p>NOVEMBRE 2023</p>
-      <P style="display: none;">Le ministre Jean-Noël Barrot affirme que l'application de messagerie française Olvid est parmi les plus sécurisées au monde. Les ministères français sont encouragés à remplacer d'autres applications par Olvid, qui ne nécessite pas de numéro de téléphone ni d'adresse e-mail à l'installation. Les utilisateurs échangent un QR code et un code à quatre chiffres pour sécuriser leurs conversations. Cette initiative vise à renforcer la sécurité des communications gouvernementales.</P>
-      <button  style="display: none;" class="button-context" role="button">
-        <a target="_blank" href="https://www.francetvinfo.fr/internet/securite-sur-internet/cybersecurite-l-application-de-messagerie-olvid-est-l-une-des-plus-securisees-au-monde-assure-le-ministre-jean-noel-barrot_6215736.html">Lien de l'article</a>
-      </button> 
-
-      <p style="padding: 10px; cursor: pointer; background-color:#f3d084;
-      border-color:#ffe3a5; border-radius: 10px; font-size: 120%;">Résumé de l'article</p>
-
-    </div>
-
-    <div class="block">
-      <h2>L’application de stationnement EasyPark victime d’une cyberattaque</h2>
-      <p>DECEMBRE 2023</p>
-      <P style="display: none;">L'application de stationnement EasyPark a été victime d'une cyberattaque le 10 décembre dernier, comme annoncé sur son site internet. Les données clients concernées ont été décrites comme "non sensibles", mais des informations de contact telles que le nom, le numéro de téléphone, l'adresse physique et électronique ont été consultées. Une partie du numéro de carte ou de l'IBAN de certains clients a également été divulguée, bien que l'entreprise assure qu'il est impossible de faire des paiements avec ces données incomplètes. L'ampleur de la fuite et le nombre exact de clients touchés restent inconnus pour le moment. EasyPark recommande à ses clients de rester vigilants face aux tentatives de phishing qui pourraient découler de cet incident.</P>
-      <button  style="display: none;" class="button-context" role="button">
-        <a target="_blank" href="https://www.rtbf.be/article/lapplication-de-stationnement-easypark-victime-dune-cyberattaque-les-informations-de-contact-de-clients-piratees-11304427">Lien de l'article</a>
-      </button> 
-
-      <p style="padding: 10px; cursor: pointer; background-color:#f3d084;
-      border-color:#ffe3a5; border-radius: 10px; font-size: 120%;">Résumé de l'article</p>
-
-    </div>
-
-    <div class="block">
-      <h2>Sécurité des applications : oui à l'IA, à condition qu'elle repose sur des bases saines !</h2>
-      <p>JANVIER 2024</p>
-      <P style="display: none;">Les solutions d'intelligence artificielle (IA) pour la sécurité des applications sont de plus en plus répandues, mais il est crucial qu'elles reposent sur des bases solides pour être efficaces. Certaines solutions visent à réduire les faux positifs ou à automatiser la recherche de correctifs, mais il est essentiel de comprendre les objectifs spécifiques de chaque solution d'IA avant de les mettre en œuvre. Pour garantir une efficacité maximale, l'IA doit être formée avec des ensembles de données fiables plutôt que des données open-source non vérifiées. L'utilisation d'IA dans la sécurité des applications peut permettre de réduire considérablement le temps nécessaire pour corriger les failles de sécurité, améliorant ainsi la posture globale de sécurité et réduisant les risques. Cependant, il est crucial de choisir judicieusement les solutions d'IA pour répondre aux besoins spécifiques de chaque organisation et de commencer par des bases solides pour assurer une sécurité optimale des applications.</P>
-      <button  style="display: none;" class="button-context" role="button">
-        <a target="_blank" href="https://www.journaldunet.com/cybersecurite/1528365-securite-des-applications-oui-a-l-ia-a-condition-qu-elle-repose-sur-des-bases-saines/">Lien de l'article</a>
-      </button> 
-
-      <p style="padding: 10px; cursor: pointer; background-color:#f3d084;
-      border-color:#ffe3a5; border-radius: 10px; font-size: 120%;">Résumé de l'article</p>
-
-    </div>
-
-    <div class="block">
-      <h2>Une grosse cyberattaque paralyse les site et application de la banque Crédit Agricole</h2>
-      <p>FEVRIERS 2024</p>
-      <P style="display: none;">Le Crédit Agricole a été victime d'une cyberattaque mercredi matin, paralysant son site internet et son application mobile. Cette attaque, revendiquée par le groupe de hackers "Turk Hack Team", fait suite à une série de perturbations similaires affectant d'autres grandes entreprises, telles que La Poste. Les pirates ont annoncé leur intention de continuer à cibler les infrastructures critiques et les systèmes bancaires. Bien que les perturbations aient cessé en fin d'après-midi, l'ampleur de l'attaque soulève des inquiétudes quant à de futures cyberattaques.</P>
-      <button  style="display: none;" class="button-context" role="button">
-        <a target="_blank" href="https://www.clubic.com/actualite-518308-credit-agricole-une-grosse-cyberattaque-paralyse-les-site-et-application-de-la-banque-ce-mercredi.html">Lien de l'article</a>
-      </button> 
-
-      <p style="padding: 10px; cursor: pointer; background-color:#f3d084;
-      border-color:#ffe3a5; border-radius: 10px; font-size: 120%;">Résumé de l'article</p>
-
-    </div>
-
-    <div class="block">
-      <h2>Protection des données dans le cloud : comment les entreprises devraient sécuriser leurs applications SaaS</h2>
-      <p>MARS 2024</p>
-      <P style="display: none;">Les applications SaaS sont devenues indispensables dans les entreprises, offrant flexibilité et efficacité, mais elles représentent également des cibles idéales pour les cybercriminels. Pour sécuriser ces applications, des mesures telles que l'utilisation de solutions de détection de menaces, de contrôle d'accès et de chiffrement des données sont essentielles. Une étude récente montre que 55% des entreprises ont signalé des incidents de cybersécurité liés aux applications SaaS au cours des deux dernières années. Des incidents notables tels que l'affaire "MOVEit" et l'attaque sur la plateforme Twilio soulignent l'importance de protéger ces données sensibles. Pour se protéger, les entreprises doivent mettre en place une gestion robuste des identités, notamment à travers une authentification forte des utilisateurs et un contrôle d'accès basé sur les rôles. Ces mesures permettent de réduire le risque de fuite de données et d'améliorer la résilience en matière de cybersécurité, une préoccupation de plus en plus pressante alors que la dépendance aux services cloud continue de croître.</P>
-      <button  style="display: none;" class="button-context" role="button">
-        <a target="_blank" href="https://www.journaldunet.com/cybersecurite/1528917-protection-des-donnees-dans-le-cloud-comment-les-entreprises-devraient-securiser-leurs-applications-saas/">Lien de l'article</a>
-      </button> 
-
-      <p style="padding: 10px; cursor: pointer; background-color:#f3d084;
-      border-color:#ffe3a5; border-radius: 10px; font-size: 120%;">Résumé de l'article</p>
-
-    </div>
-    
-    <div id="veilleContent" class="veille-content">
-      <div id="veilleContentInner" class="veille-content-inner"></div>
-      <div id="veilleContentInnerd" class="veille-content-inners"></div>
-    </div>
-    
-    
-  
-    </div>
-  </div>
-
-</div>
-
-
-<div style="height: 100px;"  id="E4"></div>
-
-<p id="titre"><a></a>Epreuve E4 (Présentation)</p>
-
-<div style="height: 20px;"  id="E4"></div>
-
-<div class="CV" style=" text-align: center; margin: auto;">
-  <a href="doc/Synthese.pdf" target="_blank"  >Voir la fiche de synthèse</a>
-</div>
-
-<div style="height: 20px;"  id="E4"></div>
-
-
-<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGAgJ-iI5c&#x2F;OUHt2Gh79Cf5BuX1sTKbqQ&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGAgJ-iI5c&#x2F;OUHt2Gh79Cf5BuX1sTKbqQ&#x2F;view?utm_content=DAGAgJ-iI5c&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
-
-<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGGwR9PaiU&#x2F;W9hawKBRpJKgdij_YiMV8Q&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGGwR9PaiU&#x2F;W9hawKBRpJKgdij_YiMV8Q&#x2F;view?utm_content=DAGGwR9PaiU&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
-
-  <script>
-    const textElement = document.getElementById("nom");
-    const originalText = "iaan";
-    const replacementText = "n";
-    let currentIndex = 0;
-    let isErasing = false;
-    let isReversing = false;
-
-    function animateText() {
-      if (!isErasing && !isReversing) {
-        const newText = originalText.substring(0, currentIndex);
-        textElement.innerHTML = newText;
-        currentIndex++;
-        if (newText === originalText) {
-          isErasing = true;
-        }
-      } else if (isErasing) {
-        setTimeout(function () {
-          const newText = originalText.substring(0, currentIndex);
-          textElement.innerHTML = newText;
-          currentIndex--;
-          if (newText === "") {
-            isErasing = false;
-            isReversing = true;
-            currentIndex = 0;
-          }
-        }, 100); // Réduisez le délai à 100 ms
-      } else if (isReversing) {
-        const newText = replacementText.substring(0, currentIndex);
-        textElement.innerHTML = newText;
-        currentIndex++;
-        if (newText === replacementText) {
-          isReversing = false;
-          currentIndex = 0;
-        }
-      }
-      setTimeout(animateText, 900); // Réduisez le délai à 100 ms
-    }
-
-    animateText();
-  </script>
-
-
-  </script>
-
-<script>
-  // Fonction pour animer le défilement de la page
-  function scrollToSection(sectionId) {
-    const section = document.getElementById(sectionId);
-    // Vérifiez si la section existe
-    if (section) {
-      // Utilisez scrollIntoView pour faire défiler la page jusqu'à la section
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
-
-  // Sélectionnez tous les éléments de la barre de navigation
-  const navLinks = document.querySelectorAll('.navbar li a');
-
-  // Ajoutez un gestionnaire d'événements de clic à chaque lien de la barre de navigation
-  navLinks.forEach(link => {
-    link.addEventListener('click', function(event) {
-      // Empêchez le comportement par défaut du lien
-      event.preventDefault();
-      // Récupérez l'ID de la section à laquelle le lien est lié
-      const sectionId = link.getAttribute('href').replace('#', '');
-      // Appelez la fonction scrollToSection avec l'ID de la section
-      scrollToSection(sectionId);
-    });
-  });
-</script>
-
-<script>
-  // Sélectionne tous les blocs de veille technologique
-  const veilleBlocks = document.querySelectorAll('.block');
-
-  // Sélectionne le div pour afficher le contenu de la veille technologique
-  const veilleContent = document.getElementById('veilleContentInner');
-
-  // Parcours chaque bloc de veille technologique
-  veilleBlocks.forEach(function(block) {
-    // Ajoute un écouteur d'événements de clic au bloc de veille
-    block.addEventListener('click', function() {
-      // Récupère le titre h2 dans le bloc actuel
-      const title = block.querySelector('h2').textContent;
-      // Affiche le titre dans le div de la veille
-      veilleContent.innerHTML = '<h2>' + title + '</h2>';
-      // Récupère le deuxième paragraphe (index 1) dans le bloc actuel
-      const secondParagraph = block.querySelectorAll('p')[1];
-      // Vérifie si le deuxième paragraphe existe
-      if (secondParagraph) {
-        // Crée un élément de paragraphe pour le résumé
-        const summaryParagraph = document.createElement('p');
-        summaryParagraph.textContent = secondParagraph.textContent;
-        // Ajoute le résumé au div de la veille
-        veilleContent.appendChild(summaryParagraph);
-        // Récupère le lien du bouton de l'article
-        const articleButtonLink = block.querySelector('.button-context a');
-        // Vérifie si le lien du bouton de l'article existe
-        if (articleButtonLink) {
-          // Crée un élément de lien pour afficher le lien de l'article
-          const linkElement = document.createElement('a');
-          linkElement.textContent = 'Lien de l\'article';
-          linkElement.href = articleButtonLink.href;
-          linkElement.target = '_blank';
-          // Ajoute le lien de l'article au div de la veille
-          veilleContent.appendChild(linkElement);
-        }
-        // Affiche le div de la veille
-        veilleContent.parentElement.style.display = 'block';
-      }
-    });
-  });
-
-  // Cache le div de la veille au chargement de la page
-  window.addEventListener('click', function(event) {
-    // Vérifie si le clic n'est pas à l'intérieur d'un bloc de veille
-    if (!event.target.closest('.block')) {
-      // Cache le div de la veille
-      veilleContent.parentElement.style.display = 'none';
-    }
-  });
-</script>
-
-
-
-
-
-
-
+    </section>
 </body>
-
 </html>
+<script src="script.js"></script>
+
+

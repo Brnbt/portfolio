@@ -1,0 +1,301 @@
+body {
+    font-family: Kanit, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: linear-gradient( #040607, #161a29);
+    background-attachment: fixed;
+    background-size: cover; 
+    color: #fff;
+    margin: auto;
+
+}
+
+main{
+    width: 80%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #010202;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .logo {
+    width: 45px;
+    height: auto;
+  }
+  
+  #navname {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar li {
+    display: inline;
+  }
+  
+  .navname {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .navbar li[style*="animation: shine"] a {
+    animation: shine 1.5s linear infinite;
+  }
+  
+h1 {
+    margin: 0;
+    font-size: 24px; 
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #252a41;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 1rem;
+    width: 45%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project-info {
+    padding: 1rem;
+}
+
+.project h3 {
+    color: #fff;
+    font-size: 25px; 
+}
+
+.project p {
+    color: #d9d9da;
+    font-size: 20px;
+}
+
+.technologies {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+#parcours {
+    background: linear-gradient( #040607, #161a29);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.parcours-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.parcours-item {
+    background: #e8e4e4;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    width:40%;
+    max-width: 600px;
+}
+
+.parcours-item h3 {
+    color: #1e1e1e;
+    font-size: 30px; 
+}
+
+.parcours-item p {
+    color: #1e1e1e;
+    font-size: 16px; 
+}
+
+#certifications {
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.certifications-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.certification-item {
+    background: #252a41;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 20%;
+    max-width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.certification-item img {
+    width: 80px;
+    height: auto;
+    background-color: #aeb2c7;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.certification-item h3 {
+    color: white;
+    font-size: 18px; 
+}
+
+.certification-item p {
+    color: white;
+    background-color: #252a41;
+    font-size: 16px; 
+}
+
+button {
+    transition: background-color 0.3s ease;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#buttonparours {
+    background-color: #252a41;
+}
+
+#buttonparours a {
+    color: white;
+}
+
+button a {
+    color: #252a41;
+    text-decoration: none; 
+}
+
+html, body {
+    touch-action: manipulation;
+    user-select: none;
+    -ms-touch-action: manipulation;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#biography {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .biography p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+
+  }
+
+  .biography h1 {
+    font-size: 40px;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .biography .CV {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .biography .CV a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #768bc0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+
+@media (max-width: 1024px) {
+    .project {
+        width: 90%; 
+        max-width: none; 
+    }
+
+    .parcours-item, .certification-item {
+        width: 90%; 
+        max-width: none;
+    }
+
+    #parcours-container{
+        flex-direction: column;
+        display: flex;    
+    }
+}
+
+@media (max-width: 768px) {
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 90%; 
+        margin: 1rem 0; 
+    }
+
+    .parcours-item, .certification-item {
+        width: 90%; 
+        max-width: none;
+    }
+}
