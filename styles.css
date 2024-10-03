@@ -113,6 +113,13 @@ h2 {
     font-size: 30px;
 }
 
+#ppportoflio{
+    display: flex;
+    margin: auto;
+    width:40%;
+    border-radius: 30px;
+}
+
 #parcours {
     background: linear-gradient( #040607, #161a29);
     padding: 2rem;
