@@ -85,6 +85,11 @@ h2 {
     max-width: 600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
+    transition: transform 0.2s;
+}
+
+.project:hover{
+    transform: scale(1.05);
 }
 
 .project img {
@@ -118,10 +123,14 @@ h2 {
     margin: auto;
     width:40%;
     border-radius: 30px;
+    transition: transform 0.2s;
+}
+
+#ppportoflio:hover{
+    transform: scale(1.05);
 }
 
 #parcours {
-    background: linear-gradient( #040607, #161a29);
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -141,6 +150,12 @@ h2 {
     margin: 1rem 0;
     width:40%;
     max-width: 600px;
+    transition: transform 0.2s;
+
+}
+
+.parcours-item:hover{
+    transform: scale(1.05);
 }
 
 .parcours-item h3 {
@@ -173,6 +188,12 @@ h2 {
     max-width: 200px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+
+}
+
+.certification-item:hover{
+    transform: scale(1.05);
 }
 
 .certification-item img {
@@ -260,6 +281,10 @@ html, body {
   .biography .CV {
     text-align: center;
     margin-top: 20px;
+    transition: transform 0.2s ;
+  }
+  .biography .CV:hover{
+    transform : scale(1.05);
   }
   
   .biography .CV a {
