@@ -133,7 +133,6 @@ h2 {
 #parcours {
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .parcours-container {
@@ -229,6 +228,7 @@ button {
 
 #buttonparours {
     background-color: #252a41;
+    font-size: 15px;
 }
 
 #buttonparours a {
@@ -238,6 +238,8 @@ button {
 button a {
     color: #252a41;
     text-decoration: none; 
+    font-size: 15px;
+
 }
 
 html, body {
