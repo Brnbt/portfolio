@@ -76,6 +76,11 @@ h2 {
     flex-wrap: wrap;
 }
 
+.waves{
+    width: 100vw;
+
+}
+
 .project {
     background: #252a41;
     border-radius: 12px;
