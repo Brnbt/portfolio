@@ -35,3 +35,24 @@
   }
 
   animateText();
+
+//   const images = [
+//     'img/pp.png',
+//     'img/pp5.png',
+//     'img/pp2.png',
+//     'img/pp3.png',
+//     'img/pp4.png'
+// ];
+
+// let currentImageIndex = 0;
+// const imageElement = document.getElementById('ppportoflio');
+
+// setInterval(() => {
+//     imageElement.classList.add('fade-out');
+
+//     setTimeout(() => {
+//         currentImageIndex = (currentImageIndex + 1) % images.length;
+//         imageElement.src = images[currentImageIndex];
+//         imageElement.classList.remove('fade-out');
+//     }, 1000);
+// }, 4000);
