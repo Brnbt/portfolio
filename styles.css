@@ -343,6 +343,50 @@ html, body {
     transition: background-color 0.3s ease;
   }
   
+.bio-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+#services {
+  padding: 2rem;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service-item {
+  background: #252a41;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 40%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.service-item:hover {
+  transform: scale(1.05);
+}
+
+.service-item h3 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 16px;
+  color: #d9d9da;
+}
+
+
 
 @media (max-width: 1024px) {
     .project {
