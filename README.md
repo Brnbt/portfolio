@@ -4,11 +4,9 @@ Développeur Full‑Stack | Étudiant en Conception & Développement d’Applica
 ## 🧭 Table des matières  
 - [À propos](#à‑propos)  
 - [Technologies](#technologies)  
-- [Démonstration](#démonstration)  
 - [Installation](#installation)  
 - [Utilisation](#utilisation)  
 - [Structure du projet](#structure‑du‑projet)  
-- [Contribuer](#contribuer)  
 - [Licence](#licence)  
 - [Contact](#contact)  
 
@@ -56,10 +54,10 @@ Puis ouvrir le fichier `index.html` dans votre navigateur — aucune installatio
 ```
 portfolio/
 │
-├── assets/           # Images, icônes, visuels
-├── css/              # Feuilles de style
-├── js/               # Scripts JavaScript
-├── pages/            # Pages secondaires (projets, services…)
+├── doc/           # Document PDF
+├── img/            # Images
+├── styles.css              # Feuilles de style
+├── scrpit.js               # Scripts JavaScript
 ├── index.html        # Page d’accueil
 └── README.md         # Ce fichier
 ```
