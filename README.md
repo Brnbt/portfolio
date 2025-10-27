@@ -5,14 +5,14 @@
 # 📘 Portfolio – Briaan Betabelet  
 Développeur Full‑Stack | Étudiant en Conception & Développement d’Applications
 
-## 🧭 Table des matières  
-- [À propos](#description)  
-- [Technologies](#technologies)  
-- [Installation](#installation)  
-- [Utilisation](#utilisation)  
-- [Structure du projet](#structure‑du‑projet)  
-- [Licence](#licence)  
-- [Contact](#contact)  
+## 🧭 Table of contents
+- [About](#description)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#use)
+- [Project structure](#project‑structure)
+- [License](#license)
+- [Contact](#contact)
 
 ---
 
@@ -35,38 +35,38 @@ This project uses the following technologies:
 
 ---
 
-## 🎬 Démonstration  
-👉 [Voir le site en ligne](https://brnbt.github.io/portfolio/)  
+## 🎬 Demonstration
+👉 [See the site online](https://brnbt.github.io/portfolio/)
 
-## 🛠️ Installation  
+## 🛠️ Installation
 ```bash
-# Cloner le dépôt
+# Clone the repository
 git clone https://github.com/Brnbt/portfolio.git
 
-# Se déplacer dans le dossier
+# Move within the folder
 cd portfolio
 ```
 
-Puis ouvrir le fichier `index.html` dans votre navigateur — aucune installation supplémentaire requise (site statique).
+Then open the `index.html` file in your browser — no additional installation required (static site).
 
 ---
 
-## 📂 Utilisation  
+## 📂 Usage
 - Modify the contents (text, images) in the corresponding folders.
 - Add or remove sections as needed.
 - Deploy via GitHub Pages or other static site hosting.
 ---
 
-## 📁 Structure du projet  
+## 📁 Project structure
 ```
 portfolio/
 │
-├── doc/           # Document PDF
-├── img/            # Images
-├── styles.css              # Feuilles de style
-├── scrpit.js               # Scripts JavaScript
-├── index.html        # Page d’accueil
-└── README.md         # Ce fichier
+├── doc/ # PDF document
+├── img/ # Images
+├── styles.css # Stylesheets
+├── scrpit.js # JavaScript Scripts
+├── index.html # Home page
+└── README.md # This file
 ```
 
 ---
