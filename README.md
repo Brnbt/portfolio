@@ -23,7 +23,11 @@ Ce projet utilise les technologies suivantes :
 - HTML, CSS, JavaScript  
 - PHP (pour certaines parties dynamiques)  
 - Déploiement : GitHub Pages  
-- Système de versionnage : Git  
+- Système de versionnage : Git
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ---
 
