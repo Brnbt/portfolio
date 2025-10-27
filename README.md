@@ -22,7 +22,7 @@ Il a pour objectif de donner une vue d’ensemble professionnelle de mon profil 
 
 ---
 
-#Technologies  
+## Technologies  
 Ce projet utilise les technologies suivantes :  
 - HTML, CSS, JavaScript  
 - PHP (pour certaines parties dynamiques)  
