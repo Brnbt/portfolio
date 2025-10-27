@@ -83,4 +83,4 @@ This project is licensed under no license.
 
 ---
 
-Merci d’avoir visité ce portfolio !
+Thank you for visiting this portfolio.
