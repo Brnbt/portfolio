@@ -16,7 +16,7 @@ Développeur Full‑Stack | Étudiant en Conception & Développement d’Applica
 
 ---
 
-## 🔍 Description 
+## Description 
 This portfolio is designed to present my projects, my technical skills, my academic background and the services I offer.
 It aims to provide a professional overview of my profile and my achievements.
 
@@ -35,10 +35,10 @@ This project uses the following technologies:
 
 ---
 
-## 🎬 Demonstration
+## Demonstration
 👉 [See the site online](https://brnbt.github.io/portfolio/)
 
-## 🛠️ Installation
+## Installation
 ```bash
 # Clone the repository
 git clone https://github.com/Brnbt/portfolio.git
@@ -51,13 +51,13 @@ Then open the `index.html` file in your browser — no additional installation r
 
 ---
 
-## 📂 Usage
+## Usage
 - Modify the contents (text, images) in the corresponding folders.
 - Add or remove sections as needed.
 - Deploy via GitHub Pages or other static site hosting.
 ---
 
-## 📁 Project structure
+## Project structure
 ```
 portfolio/
 │
@@ -71,12 +71,12 @@ portfolio/
 
 ---
 
-## 📜 Licence  
+## Licence  
 This project is licensed under no license.
 
 ---
 
-## 📬 Contact  
+## Contact  
 - **Email :** briaan.betabelet@gmail.com  
 - **LinkedIn :** [linkedin.com/in/briaan-betabelet](https://linkedin.com/in/briaan-betabelet)  
 - **GitHub :** [github.com/Brnbt](https://github.com/Brnbt)
