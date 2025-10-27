@@ -6,7 +6,7 @@
 Développeur Full‑Stack | Étudiant en Conception & Développement d’Applications
 
 ## 🧭 Table des matières  
-- [À propos](#à‑propos)  
+- [À propos](#description)  
 - [Technologies](#technologies)  
 - [Installation](#installation)  
 - [Utilisation](#utilisation)  
@@ -16,18 +16,18 @@ Développeur Full‑Stack | Étudiant en Conception & Développement d’Applica
 
 ---
 
-## 🔍 À propos  
-Ce portfolio est conçu pour présenter mes projets, mes compétences techniques, mon parcours académique et les services que je propose.  
-Il a pour objectif de donner une vue d’ensemble professionnelle de mon profil et de mes réalisations.
+## 🔍 Description 
+This portfolio is designed to present my projects, my technical skills, my academic background and the services I offer.
+It aims to provide a professional overview of my profile and my achievements.
 
 ---
 
 ## Technologies  
-Ce projet utilise les technologies suivantes :  
-- HTML, CSS, JavaScript  
-- PHP (pour certaines parties dynamiques)  
-- Déploiement : GitHub Pages  
-- Système de versionnage : Git
+This project uses the following technologies:
+- HTML, CSS, JavaScript
+- PHP (for certain dynamic parts)
+- Deployment: GitHub Pages
+- Versioning system: Git
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -52,10 +52,9 @@ Puis ouvrir le fichier `index.html` dans votre navigateur — aucune installatio
 ---
 
 ## 📂 Utilisation  
-- Modifier les contenus (texte, images) dans les dossiers correspondants.  
-- Ajouter ou retirer des sections selon vos besoins.  
-- Déployer via GitHub Pages ou tout autre hébergement de site statique.
-
+- Modify the contents (text, images) in the corresponding folders.
+- Add or remove sections as needed.
+- Deploy via GitHub Pages or other static site hosting.
 ---
 
 ## 📁 Structure du projet  
