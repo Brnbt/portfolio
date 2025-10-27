@@ -72,7 +72,7 @@ portfolio/
 ---
 
 ## 📜 Licence  
-Ce projet est sous licence aucune licence.
+This project is licensed under no license.
 
 ---
 
