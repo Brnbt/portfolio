@@ -1,16 +1,5 @@
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
-<h3 align="center">Portfolio</h3>
-
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://brnbt.github.io/portfolio">Voir le site</a>
-    </div>
-
+<img src="images/logo.png" alt="Logo" width="80" height="80">
 
 # 📘 Portfolio – Briaan Betabelet  
 Développeur Full‑Stack | Étudiant en Conception & Développement d’Applications
