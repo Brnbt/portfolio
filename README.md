@@ -25,7 +25,7 @@ Ce projet utilise les technologies suivantes :
 - Déploiement : GitHub Pages  
 - Système de versionnage : Git
 
-* [![Php][php.net]][Php-url]
+* [![JQuery][JQuery.com]][JQuery-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
