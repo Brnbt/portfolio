@@ -1054,4 +1054,33 @@ html {
     .certifications-container {
         grid-template-columns: 1fr;
     }
+
+    .logos-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .logos-grid img {
+        height: 150px;
+        max-height: 150px;
+        padding: 0.5rem;
+    }
+
+    #logos .project .logos-grid {
+        min-height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .logos-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 1rem 0.5rem;
+    }
+
+    .logos-grid img {
+        height: 120px;
+        max-height: 120px;
+    }
 }
