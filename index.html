@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Brnbt">  
-    <title>Briaan Betabelet — Développeur Full-Stack</title>
-    <meta name="description" content="Portfolio de Briaan Betabelet, développeur full-stack (PHP, JS, SQL). Projets: TNK Inside, CP28, Fleur des Îles. Disponible en alternance." />
+    <title>Brnbt — Freelance Tout Terrain Informatique</title>
+    <meta name="description" content="Brnbt, freelance tout terrain en informatique : développement web (PHP, JavaScript, MySQL, Next.js), montage vidéo et photo. Solutions créatives sur mesure." />
     <link rel="canonical" href="https://brnbt.github.io/portfolio/" />
-    <meta property="og:title" content="Briaan Betabelet — Développeur Full-Stack" />
-    <meta property="og:description" content="Mes projets, mon parcours et mon CV." />
+    <meta property="og:title" content="Brnbt — Freelance Tout Terrain Informatique" />
+    <meta property="og:description" content="Freelance tout terrain en informatique : développement web, montage vidéo et photo. Solutions créatives et techniques sur mesure." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://brnbt.github.io/portfolio/" />
     <meta property="og:image" content="https://brnbt.github.io/portfolio/img/portrait.jpg" />
@@ -17,125 +17,260 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="apple-touch-icon" href="img/logo.png">
     <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com">
     <link rel="stylesheet" href="styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- <header>
-        <nav>
-            <ul class="navbar">
-                <img class="logo" src="img/logo.png" alt="logo">
-                <div id="navname">
-                    <li>
-                        <a target="_blank" href="https://www.linkedin.com/in/briaan-betabelet-91b345222">
-                            <span class="navname"><i class='bx bxl-linkedin-square' style='color:#ffffff'></i></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://github.com/Brnbt">
-                            <span class="navname"><i class='bx bxl-github' style='color:#ffffff'></i></span>
-                        </a>
-                    </li>
-                    <li><a href="#projects"><span class="navname">Projets</span></a></li>
-                    <li><a href="#parcours"><span class="navname">Parcours</span></a></li>
-                </div>
-            </ul>
-        </nav>
-    </header> -->
-
-    <div style="height: 70px;"></div>
-
-    <section id="biography">
-        <div class="biography">
-            <img id="ppportoflio" src="img/pp.png" alt="Photo de profil">
-            <p style="font-family: 'VT323', monospace; font-size: 50px;">
-                <span>Br</span><span id="nom"></span><span> BETABELET</span>
-            </p>
-            <p>DÉVELOPPEUR FULL STACK</p>
-            <p>
-                Je suis actuellement étudiant à l'ENSITECH à Cergy en troisième année de Concepteur développeur d'applications. 
-                Je vous propose sur ce portfolio de retrouver ci-dessous les différentes études et projets professionnels que j'ai entrepris au sein de ma carrière.
-            </p>
-            <p>
-                Vous retrouverez ci-dessous mon CV, mon parcours ainsi que mes différents projets.
-            </p>
-            <div class="bio-buttons">
-                <div class="CV">
-                    <a href="doc/CV.pdf" target="_blank">Télécharger le CV</a>
-                </div>
-                <!-- <div class="Fiverr">
-                    <a href="doc/CV.pdf" target="_blank">Commander sur Fiverr</a>
-                </div> -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#" class="nav-logo">Brnbt</a>
+                <ul class="nav-menu">
+                    <li><a href="#about" class="nav-link">À propos</a></li>
+                    <li><a href="#projects" class="nav-link">Projets</a></li>
+                    <li><a href="#logos" class="nav-link">Logos</a></li>
+                    <!-- <li><a href="#services" class="nav-link">Services</a></li> -->
+                    <!-- <li><a href="#parcours" class="nav-link">Parcours</a></li> -->
+                </ul>
             </div>
-        </div>
-    </section>
+        </nav>
+    </header>
 
-    <section id="projects">
-        <h2>Projets</h2>
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-name">Brnbt</span>
+                    <span class="hero-subtitle">Freelance Développeur Web</span>
+                </h1>
+                <p class="hero-description">
+                    Je crée des sites web et applications performantes, et je propose également des services de montage vidéo et photo.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="hero-btn hero-btn-primary">Voir mes projets</a>
+                    <a href="#about" class="hero-btn hero-btn-secondary">En savoir plus</a>
+                    <a href="mailto:briaan.betabelet@gmail.com" class="hero-btn hero-btn-email">
+                        <i class='bx bx-envelope'></i>
+                        Me contacter
+                    </a>
+                 </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">4+</div>
+                        <div class="stat-label">Projets réalisés</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Technologies maîtrisées</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-main">
+                    <div class="about-text">
+                        <p>
+                            Freelance polyvalent dans l'informatique, je vous accompagne dans tous vos projets numériques. 
+                            Développeur web full-stack, je crée des sites et applications performantes avec PHP, JavaScript, MySQL et Next.js.
+                        </p>
+                        <p>
+                            Spécialisé également en montage vidéo et photo, je transforme vos contenus visuels en créations impactantes. 
+                            Une expertise complète pour répondre à tous vos besoins créatifs et techniques.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="about-skills">
+                    <h3>Compétences</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Développement Web</h4>
+                            <div class="skill-items">
+                                <span class="skill-item">
+                                    <i class='bx bxl-php'></i>
+                                    <span>PHP</span>
+                                </span>
+                                <span class="skill-item">
+                                    <i class='bx bxl-javascript'></i>
+                                    <span>JavaScript</span>
+                                </span>
+                                <span class="skill-item">
+                                    <i class='bx bxl-react'></i>
+                                    <span>Next.js</span>
+                                </span>
+                                <span class="skill-item">
+                                    <i class='bx bxl-html5'></i>
+                                    <span>HTML/CSS</span>
+                                </span>
+                                <span class="skill-item">
+                                    <i class='bx bxs-data'></i>
+                                    <span>MySQL</span>
+                                </span>
+                                <span class="skill-item">
+                                    <i class='bx bxl-java'></i>
+                                    <span>Java</span>
+                                </span>
+                                <span class="skill-item">
+                                    <i class='bx bxl-git'></i>
+                                    <span>Git</span>
+                                </span>
+                                <span class="skill-item">
+                                    <i class='bx bxl-wordpress'></i>
+                                    <span>WordPress</span>
+                                </span>
+                                <span class="skill-item">
+                                    <i class='bx bxl-postgresql'></i>
+                                    <span>PostgreSQL</span>
+                                </span>
+                                <span class="skill-item">
+                                    <i class='bx bxl-tailwind-css'></i>
+                                    <span>Tailwind CSS</span>
+                                </span>
+                                <span class="skill-item">
+                                    <i class='bx bxl-bootstrap'></i>
+                                    <span>Bootstrap</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Création</h4>
+                            <div class="skill-items">
+                                <span class="skill-item">
+                                    <i class='bx bx-video'></i>
+                                    <span>Montage Vidéo</span>
+                                </span>
+                                <span class="skill-item">
+                                    <i class='bx bx-image'></i>
+                                    <span>Montage Photo</span>
+                                </span>
+                                <span class="skill-item">
+                                    <i class='bx bx-palette'></i>
+                                    <span>Design</span>
+                                </span>
+                                <span class="skill-item">
+                                    <i class='bx bxl-adobe'></i>
+                                    <span>Adobe</span>
+                                </span>
+                                <span class="skill-item">
+                                    <i class='bx bx-paint'></i>
+                                    <span>Création de Logo</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+        <h2>Projets Web</h2>
         <div class="project-container">
             <article class="project">
-                <img src="img/tnkinsidesite.png" alt="Projet TNK Inside">
+                <img src="img/tnkinsidesite.png" alt="Capture d'écran du site TNK Inside" loading="lazy" width="600" height="400">
                 <div class="project-info">
                     <h3>TNK Inside  | Site Officiel du TNK Inside F.C</h3>
                     <p>
                         Découvrez tout ce que vous devez savoir sur TNK Inside ! Suivez en direct les résultats de chaque match, explorez notre boutique officielle, familiarisez-vous avec les joueurs de l'effectif.
                     </p>
                     <p>
-                        Ce site est développé en PHP pour la logique serveur, HTML et CSS pour la structure et le style, et utilise une base de données pour stocker les informations dynamiques.
+                        Ce site est développé en PHP pour la logique serveur, HTML et CSS pour la structure et le style, et utilise MySQL pour stocker les informations dynamiques.
                     </p>
-                    <button><a target="_blank" href="http://www.tnkinside.fr/">Site web</a></button>
+                    <button><a target="_blank" href="http://www.tnkinside.fr/" rel="noopener noreferrer">Site web</a></button>
                     <div class="technologies">
                         <i class='bx bxl-php'></i>
                         <i class='bx bxl-javascript'></i>
                         <i class='bx bxl-css3'></i>
                         <i class='bx bxl-html5'></i>
-                        <i class='bx bxl-postgresql'></i>
+                        <i class='bx bxs-data'></i>
                     </div>
                 </div>
             </article>
             <article class="project">
-                <img src="img/cp28site.png" alt="Projet CP28">
+                <img src="img/cp28site.png" alt="Capture d'écran du projet CP28" loading="lazy" width="600" height="400">
                 <div class="project-info">
                     <h3>CP28 - Chauffeur VTC</h3>
                     <p>
-                        Application web pour une auto-entreprise, qui permet de créer des factures, des dépenses et des courses et d’autres documents, accessibles uniquement en local.                    </p>
+                        Application web pour une auto-entreprise, qui permet de créer des factures, des dépenses et des courses et d'autres documents, accessibles uniquement en local.                    </p>
                     <p>
-                        Ce site est développé en PHP pour la logique serveur, HTML et CSS pour la structure et le style, et utilise une base de données pour stocker les informations dynamiques.
+                        Ce site est développé avec PHP pour la logique serveur, JavaScript pour l'interactivité, Bootstrap pour le design et l'interface utilisateur, et MySQL pour la base de données.
                     </p>
                     <div class="technologies">
-                        <i class='bx bxl-java'></i>
-                        <i class='bx bxl-react'></i>
-                        <i class='bx bxl-postgresql'></i>
-                        <i class='bx bxl-tailwind-css'></i>
+                        <i class='bx bxl-php'></i>
+                        <i class='bx bxl-javascript'></i>
+                        <i class='bx bxl-bootstrap'></i>
+                        <i class='bx bxs-data'></i>
                     </div>
                 </div>
             </article>
             <article class="project">
-                <img src="img/fleurdesilessite.png" alt="Projet TNK Inside">
+                <img src="img/fleurdesilessite.png" alt="Capture d'écran du site Fleur des îles" loading="lazy" width="600" height="400">
                 <div class="project-info">
                     <h3>Fleur des îles - Boutique Officielle</h3>
                     <p>
-                        Fleur des Îles est une marque de vêtements née d'une collaboration familiale. Nos créations rendent hommage à l’élégance et à l’authenticité des îles, avec des pièces qui reflètent chaleur, identité et fierté.
+                        Fleur des Îles est une marque de vêtements née d'une collaboration familiale. Nos créations rendent hommage à l'élégance et à l'authenticité des îles, avec des pièces qui reflètent chaleur, identité et fierté.
                     </p>
                     <p>
                         Ce site est développé avec Shopify pour vous offrir une expérience de navigation fluide, sécurisée et agréable.
                     </p>
                     <div class="technologies">
-                        <i class="bx bxl-wordpress"></i>
+                        <i class="bx bxl-shopify"></i>
+                    </div>
+                </div>
+            </article>
+            <article class="project">
+                <img src="img/patricia&philipp.png" alt="Capture d'écran du site de mariage Patricia & Philipp" loading="lazy" width="600" height="400">
+                <div class="project-info">
+                    <h3>Patricia & Philipp - Site de Mariage</h3>
+                    <p>
+                        Site web élégant et moderne créé pour célébrer le mariage de Patricia & Philipp. Une plateforme dédiée pour partager les moments importants, les informations de l'événement et créer des souvenirs inoubliables.
+                    </p>
+                    <p>
+                        Ce site est développé avec Next.js, offrant des performances optimales et une expérience utilisateur fluide et moderne.
+                    </p>
+                    <div class="technologies">
+                        <i class="bx bxl-react"></i>
                     </div>
                 </div>
             </article>
         </div>
     </section>
 
-    <section id="services">
+    <section id="logos">
+        <h2>Créations de Logo</h2>
+        <div class="project-container">
+            <article class="project">
+                <div class="logos-grid">
+                    <img src="img/creationlogo/BTSSNIRLOGO.png" alt="Logo BTS SNIR" loading="lazy" draggable="false" oncontextmenu="return false;">
+                    <img src="img/creationlogo/fcbabinkslogo.png" alt="Logo FC Babinks" loading="lazy" draggable="false" oncontextmenu="return false;">
+                    <img src="img/creationlogo/Fleur_des_Îles.png" alt="Logo Fleur des Îles" loading="lazy" draggable="false" oncontextmenu="return false;">
+                    <img src="img/creationlogo/logo1.png" alt="Logo personnalisé 1" loading="lazy" draggable="false" oncontextmenu="return false;">
+                    <img src="img/creationlogo/logocarprestige28.png" alt="Logo Car Prestige 28" loading="lazy" draggable="false" oncontextmenu="return false;">
+                    <img src="img/creationlogo/tnklogo.png" alt="Logo TNK" loading="lazy" draggable="false" oncontextmenu="return false;">
+                </div>
+                <div class="project-info">
+                    <h3>Mes Créations de Logo</h3>
+                    <p>
+                        Collection de logos créés pour différents clients et projets, alliant créativité et professionnalisme.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- <section id="services">
   <h2>Services</h2>
   <div class="services-container">
     <div class="service-item">
       <h3>Montage photo</h3>
-      <p>Assemblage d’images, ajout d’effets, retouches et export optimisé.</p>
+      <p>Assemblage d'images, ajout d'effets, retouches et export optimisé.</p>
       <p><strong>À partir de 15€</strong></p>
     </div>
 
@@ -151,66 +286,59 @@
       <p><strong>À partir de 200€</strong></p>
     </div>
   </div>
-</section>
+</section> -->
 
 
-    <section id="parcours">
+    <!-- <section id="parcours">
         <h2>Mon Parcours</h2>
         <div class="parcours-container">
             <div class="parcours-item">
-                <h3>Concepteur développeur d'applications (Bac +3) (En cours)</h3>
-                <p>ENSITECH - Cergy 95</p>
-                <p><strong>2025 - Maintenant</strong></p>
-                <p>Bachelor Tech & Dev, spécialité Développeur Full Stack</p>
-                <button id="buttonparours"><a target="_blank" href="https://www.ensitech.eu/formation/bachelor-tech-and-dev-specialite-developpeur-full-stack/">Qu'est ce que le Bachelor concepteur développeur d'applications ?</a></button>
-            </div>
-            <div class="parcours-item">
-                <h3>BTS SIO Option SLAM (Bac +2) (Obtenu)</h3>
+                <h3>BTS SIO Option SLAM (Bac +2) </h3>
                 <p>Lycée Jules Ferry - Conflans-Sainte-Honorine 78</p>
-                <p><strong>2022 - 2024</strong></p>
+                <p><strong>2022 - 2024 (Obtenu)</strong></p>
                 <p>BTS Services informatiques aux organisations Option Solutions Logicielles et Applications Métiers</p>
-                <button id="buttonparours"><a target="_blank" href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers">Qu'est ce que le BTS SIO ?</a></button>
+                <button id="buttonparours"><a target="_blank" href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers" rel="noopener noreferrer">Qu'est ce que le BTS SIO ?</a></button>
             </div>
             <div class="parcours-item">
-                <h3>BAC STI2D Option SIN (Obtenu)</h3>
+                <h3>BAC STI2D Option SIN </h3>
                 <p>Lycée Polyvalent Jean Jaurès - Argenteuil 95</p>
                 <p><strong>2018 - 2021 (Obtenu)</strong></p>
                 <p>BAC Sciences et Technologies de l'industrie et du Développement Durable</p>
-                <button id="buttonparours"><a target="_blank" href="https://www.onisep.fr/ressources/univers-formation/formations/lycees/bac-techno-sti2d-sciences-et-technologies-de-l-industrie-et-du-developpement-durable-enseignement-specifique-systemes-d-information-et-numerique#:~:text=L'enseignement%20sp%C3%A9cifique%20%22syst%C3%A8mes%20d,et%20de%20leurs%20performances%20environnementales.">Qu'est ce que le BAC STI2D ?</a></button>
+                <button id="buttonparours"><a target="_blank" href="https://www.onisep.fr/ressources/univers-formation/formations/lycees/bac-techno-sti2d-sciences-et-technologies-de-l-industrie-et-du-developpement-durable-enseignement-specifique-systemes-d-information-et-numerique#:~:text=L'enseignement%20sp%C3%A9cifique%20%22syst%C3%A8mes%20d,et%20de%20leurs%20performances%20environnementales." rel="noopener noreferrer">Qu'est ce que le BAC STI2D ?</a></button>
             </div>
         </div>
-    </section>
+    </section> -->
+    </main>
 
-    <section id="certifications">
+    <!-- <section id="certifications">
         <h2>Certifications</h2>
         <div class="certifications-container">
             <div class="certification-item">
-                <img src="img/pix.png" alt="Certification PIX">
+                <img src="img/pix.png" alt="Certification PIX" loading="lazy" width="80" height="80">
                 <h3>PIX</h3>
                 <p>Service public en ligne pour évaluer ses compétences numériques.</p>
-                <button><a target="_blank" href="doc/PIX.pdf">Voir la certification</a></button>
+                <button><a target="_blank" href="doc/PIX.pdf" rel="noopener noreferrer">Voir la certification</a></button>
             </div>
             <div class="certification-item">
-                <img src="img/SecNumAcademie.png" alt="Certification SecNumAcademie">
+                <img src="img/SecNumAcademie.png" alt="Certification SecNumAcademie" loading="lazy" width="80" height="80">
                 <h3>SecNumAcadémie</h3>
                 <p>Service public en ligne pour évaluer ses compétences en cybersécurité.</p>
-                <button><a target="_blank" href="doc/SecNumacademie.pdf">Voir la certification</a></button>
+                <button><a target="_blank" href="doc/SecNumacademie.pdf" rel="noopener noreferrer">Voir la certification</a></button>
             </div>
             <div class="certification-item">
-                <img src="img/CNIL.png" alt="Certification CNIL">
+                <img src="img/CNIL.png" alt="Certification CNIL" loading="lazy" width="80" height="80">
                 <h3>CNIL : MOOC sur le RGPD</h3>
                 <p>Service public en ligne pour évaluer ses compétences sur la RGPD.</p>
-                <button><a target="_blank" href="doc/CNIL.pdf">Voir la certification</a></button>
+                <button><a target="_blank" href="doc/CNIL.pdf" rel="noopener noreferrer">Voir la certification</a></button>
             </div>
             <div class="certification-item">
-                <img src="img/Voltaire.png" alt="Certification Voltaire">
+                <img src="img/Voltaire.png" alt="Certification Voltaire" loading="lazy" width="80" height="80">
                 <h3>PROJET VOLTAIRE</h3>
                 <p>Remise à niveau en expression et en orthographe.</p>
-                <button><a target="_blank" href="doc/VOLTAIRE.pdf">Voir la certification</a></button>
+                <button><a target="_blank" href="doc/VOLTAIRE.pdf" rel="noopener noreferrer">Voir la certification</a></button>
             </div>
         </div>
-    </section>
-    <img src="img/waves2.svg" class="waves">
+    </section> -->
+    <script src="script.js" defer></script>
 </body>
 </html>
-<script src="script.js"></script>
